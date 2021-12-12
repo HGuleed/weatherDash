@@ -8,7 +8,7 @@ let apiKey2 = "dc6e179cb0618d51ccd91e501035eb2d";
 function geoCoor(event, name) {
   let cityName = name || document.getElementById("input").value;
   let geoApi =
-    "https://cors-anywhere.herokuapp.com/api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     cityName +
     "&limit=1&appid=da8210ca591e6c503f687e21d47ead5b";
   var lon = "";
